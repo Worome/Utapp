@@ -1,4 +1,4 @@
-package com.trianacodes.script.utapp;
+package com.trianacodes.script.utapp.actividades;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -12,6 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.trianacodes.script.utapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

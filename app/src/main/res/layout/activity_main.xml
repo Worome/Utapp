@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/lista_degradado_layout"
-    tools:context=".MainActivity">
+    tools:context=".actividades.MainActivity">
 
     <ImageView
         android:id="@+id/iv_Inicial"
