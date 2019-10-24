@@ -55,7 +55,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 int timeToBlink = 750;
-                try{Thread.sleep(timeToBlink);}catch (Exception e) {}
+                try{
+                    Thread.sleep(timeToBlink);
+                }catch (Exception e) {
+
+                }
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
